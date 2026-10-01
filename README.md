@@ -2,8 +2,7 @@
 
 A complete, executable machine-learning curriculum in **100 Jupyter notebooks**. It starts with Python and NumPy, moves through statistics,
 classical ML, ensembles, unsupervised and probabilistic learning, deep learning, modern architectures and trustworthy ML/MLOps, and ends
-with **seven end-to-end remote-sensing research projects** built to the standard expected by journals such as *Remote Sensing of
-Environment*, *ISPRS JPRS* and *IEEE TGRS*.
+with **seven end-to-end remote-sensing research projects**.
 
 ## How each notebook is organised
 1. **Title and module**, followed by a short motivation
