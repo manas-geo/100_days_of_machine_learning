@@ -1,0 +1,5 @@
+model,success-rate AUC (period 1),prediction-rate AUC (period 2),Spearman with TRUE probability (simulation only)
+Frequency ratio,0.821,0.781,0.769
+Logistic regression,0.8,0.716,0.654
+Random forest,0.95,0.779,0.76
+XGBoost,0.957,0.809,0.777

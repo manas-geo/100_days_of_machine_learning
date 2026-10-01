@@ -1,0 +1,4 @@
+transition,calibration events (2016-20),validation AUC (2020-24),top drivers
+to built-up,1873,0.9546388948919736,"dist_built_m, built_share_15, dist_town_m"
+to mining,1805,0.9816868787360569,"dist_mine_m, dist_town_m, dist_road_m"
+forest to shrub,4746,0.7820462882617383,"forest_share_15, elevation_m, slope_deg"

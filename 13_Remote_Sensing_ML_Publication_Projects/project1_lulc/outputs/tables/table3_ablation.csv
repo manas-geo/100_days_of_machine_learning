@@ -1,0 +1,7 @@
+feature set,n features,macro F1 (pooled),OA (mean),OA (s.d.),OA diff vs full,p vs full (corrected t)
+S2 monsoon (baseline),10,0.7908,0.7861,0.0477,-0.1227,0.0
++ S2 other seasons,40,0.8622,0.8592,0.0445,-0.0496,0.0046
++ indices & temporal,66,0.8731,0.8704,0.0421,-0.0385,0.0088
++ Sentinel-1,72,0.9074,0.9053,0.0376,-0.0036,0.681
++ texture,77,0.9011,0.8989,0.0363,-0.01,0.1927
++ terrain (all),81,0.9105,0.9089,0.0314,0.0,

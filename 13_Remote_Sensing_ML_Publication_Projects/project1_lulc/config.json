@@ -1,0 +1,34 @@
+{
+  "project": "LULC mapping, Damodar valley (simulated)",
+  "raw_data_dir": "data/study_area",
+  "crs": "EPSG:32645",
+  "pixel_size_m": 20,
+  "seed": 42,
+  "classes": [
+    "water",
+    "forest",
+    "cropland",
+    "built_up",
+    "mining_bare",
+    "shrub_grass"
+  ],
+  "class_colors": [
+    "#2b83ba",
+    "#1a9641",
+    "#f4d03f",
+    "#d7191c",
+    "#5d4037",
+    "#a6d96a"
+  ],
+  "cv": {
+    "type": "spatial_block",
+    "block_size_m": 2000,
+    "n_folds": 5
+  },
+  "validation": {
+    "design": "stratified random by map class",
+    "target_se_oa": 0.01,
+    "n_rare_class": 75
+  },
+  "corr_threshold": 0.95
+}

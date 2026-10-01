@@ -1,0 +1,5 @@
+,IoU,F1,precision,recall
+M1 Otsu (post VV),0.536,0.698,0.926,0.56
+M2 change detection + HAND,0.407,0.579,0.967,0.413
+M3 random forest,0.826,0.905,0.889,0.921
+M4 U-Net,0.844,0.915,0.894,0.938

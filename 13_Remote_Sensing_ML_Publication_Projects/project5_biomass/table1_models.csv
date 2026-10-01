@@ -1,0 +1,7 @@
+model,features,RMSE,rRMSE %,bias,R2
+log-linear,S1+S2,38.164,67.581,8.421,0.516
+random forest,S1+S2,22.988,40.708,0.201,0.825
+LightGBM,S1+S2,23.147,40.989,0.357,0.822
+log-linear,S1+S2+CHM,39.619,70.158,9.089,0.479
+random forest,S1+S2+CHM,21.218,37.573,0.134,0.851
+LightGBM,S1+S2+CHM,21.864,38.716,0.652,0.841

@@ -1,0 +1,6 @@
+zone,% area,% landslides period 1,% landslides period 2,density ratio (period 2)
+very low,50.0,0.0,9.94,0.2
+low,20.0,0.4,16.15,0.81
+moderate,15.0,4.03,18.63,1.24
+high,10.0,27.02,23.6,2.36
+very high,5.0,68.55,31.68,6.33

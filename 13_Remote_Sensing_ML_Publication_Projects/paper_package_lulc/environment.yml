@@ -1,0 +1,17 @@
+name: lulc-paper
+channels:
+- conda-forge
+dependencies:
+- python=3.12.14
+- numpy=2.5.3
+- pandas=3.0.6
+- scipy=1.18.1
+- scikit-learn=1.9.1
+- matplotlib=3.11.2
+- rasterio=1.5.2
+- geopandas=1.2.0
+- pyyaml=6.0.3
+- pip:
+  - shap==0.52.0
+  - xgboost==3.4.1
+  - lightgbm==4.7.0

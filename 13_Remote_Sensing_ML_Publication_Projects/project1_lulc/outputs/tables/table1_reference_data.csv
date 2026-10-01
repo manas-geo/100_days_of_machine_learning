@@ -1,0 +1,7 @@
+class,n_points,n_blocks,share_%
+water,97,11,16.2
+forest,99,18,16.6
+cropland,100,20,16.7
+built_up,99,8,16.6
+mining_bare,100,10,16.7
+shrub_grass,103,21,17.2

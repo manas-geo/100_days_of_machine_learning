@@ -1,0 +1,9 @@
+,,new region (2024 C),new region (2024 C),new year (2023 A+B),new year (2023 A+B)
+,,mean,std,mean,std
+model,augment,,,,
+LSTM,False,0.962,0.004,0.896,0.03
+RF (flattened),False,0.966,0.001,0.915,0.003
+TempCNN,False,0.966,0.004,0.957,0.003
+TempCNN,True,0.972,0.003,0.968,0.0
+Transformer,False,0.966,0.004,0.951,0.002
+Transformer,True,0.965,0.003,0.959,0.008

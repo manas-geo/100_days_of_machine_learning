@@ -1,0 +1,5 @@
+,total AGB (Mg),95% CI half-width (Mg),total carbon (Mg C),CO2e (Mg),relative 95% CI %
+map sum (no valid CI),144790.0,,68051.0,249521.0,
+design-based (plots only),141490.0,17079.0,66500.0,243834.0,12.0
+model-assisted GREG,144960.0,6719.0,68131.0,249814.0,5.0
+TRUE (simulation only),144527.0,,67928.0,249068.0,

@@ -1,0 +1,7 @@
+,ref water,ref forest,ref cropland,ref built_up,ref mining_bare,ref shrub_grass
+map water,59,0,3,0,3,10
+map forest,0,360,1,0,0,16
+map cropland,0,0,167,0,0,5
+map built_up,0,0,0,73,1,1
+map mining_bare,0,0,1,0,71,3
+map shrub_grass,0,20,7,0,0,474

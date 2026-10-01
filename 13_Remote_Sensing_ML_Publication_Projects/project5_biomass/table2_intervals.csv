@@ -1,0 +1,4 @@
+,coverage (target 0.90),coverage s.d. over folds,mean width (Mg/ha)
+split conformal (RF),0.844,0.122,48.173
+quantile LightGBM,0.672,0.068,38.46
+CQR (LightGBM),0.815,0.125,53.271

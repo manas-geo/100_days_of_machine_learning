@@ -1,0 +1,57 @@
+# Conda environment used to execute all 100 notebooks (CPU only, Windows 11, October 2026).
+# Create:   conda env create -f environment.yml
+# Activate: conda activate ml100
+name: ml100
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=2.5
+  - pandas=3.0
+  - scipy=1.18
+  - matplotlib=3.11
+  - seaborn=0.13
+  - scikit-learn=1.9
+  - statsmodels=0.15
+  - sympy=1.14
+  - networkx=3.7
+  - numba=0.68
+  - umap-learn=0.5
+  - imbalanced-learn=0.14
+  - xgboost=3.4
+  - lightgbm=4.7
+  - catboost=1.2
+  - shap=0.52
+  - optuna=5.0
+  - rasterio=1.5
+  - geopandas=1.2
+  - shapely=2.1
+  - pyproj=3.8
+  - xarray
+  - pyarrow
+  - pyyaml
+  - joblib
+  - tqdm
+  - pillow
+  - fastapi
+  - httpx
+  - skl2onnx=1.20
+  - onnxruntime=1.30
+  - ipykernel
+  - nbclient
+  - nbformat
+  - jupyterlab
+  - pip
+  - pip:
+      # CPU build of PyTorch; for a GPU, use the selector at https://pytorch.org/get-started/locally/
+      - --extra-index-url https://download.pytorch.org/whl/cpu
+      - torch==2.14.*
+      - torchvision==0.29.*
+# Optional (the notebooks show this code but guard it, because it needs accounts or extra installs):
+#   earthengine-api geemap          Day 87 (Google Earth Engine; needs a registered Cloud project)
+#   pystac-client planetary-computer odc-stac   Day 87 (STAC / Planetary Computer)
+#   mlflow                           Day 81 (experiment tracking server)
+#   dask[array]                      Day 84 (out-of-core arrays)
+#   transformers                     Day 76 (pretrained language models)
+#   torchgeo                         Day 97 (pretrained remote-sensing weights)
+#   pytest                           Day 99 (tests also run without it)

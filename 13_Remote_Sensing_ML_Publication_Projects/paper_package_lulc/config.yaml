@@ -1,0 +1,24 @@
+study: LULC mapping, Damodar valley (simulated data)
+raw_data_dir: ../data/study_area
+output_dir: outputs
+seed: 42
+classes:
+- water
+- forest
+- cropland
+- built_up
+- mining_bare
+- shrub_grass
+model:
+  type: random_forest
+  n_estimators: 300
+  max_features: sqrt
+  min_samples_leaf: 1
+cv:
+  block_size_m: 2000
+  n_folds: 5
+validation:
+  target_se_oa: 0.01
+  n_rare_class: 75
+  user_accuracy_guess: 0.85
+pixel_size_m: 20
