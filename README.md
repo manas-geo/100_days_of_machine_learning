@@ -239,3 +239,6 @@ environment.yml, requirements.txt                                           the 
 - **1 day = 1 notebook** (1.5-3 hours including the practice problems).
 - Short on time? Do Modules 1-7 and 10, then go straight to Module 13.
 - For your own research, Days 88, 90, 91 and 99 are the methodological core.
+
+## Licence
+MIT
